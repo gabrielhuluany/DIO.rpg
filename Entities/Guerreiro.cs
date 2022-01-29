@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DIO.rpg.Entities
 {
-    public class Guerreiro
+    public class Guerreiro : Personagem
     {
     }
 }
