@@ -1,4 +1,4 @@
-# 🔗 [Digital Innovation One (DIO) | RPG com POO em C#](https://github.com/elizarp/dio-dotnet-poo-lab-2)
+# Digital Innovation One (DIO) | RPG com POO em C#
 <!--![DIO logo](https://i.imgur.com/mprXgcQ.jpeg)-->
 <img src="https://i.imgur.com/mprXgcQ.jpeg" alt="DIO logo" width="250" height="250">
 
