@@ -8,10 +8,10 @@ namespace DIO.rpg.Entities
 {
     public abstract class Personagem
     {
-        public string Nome { get; set; }
-        public int Nivel { get; set; }
-        public int Vida { get; set; }
-        public int Forca { get; set; }
+        public string Nome;
+        public int Nivel;
+        public int Vida;
+        public int Forca;
 
         public Personagem(string Nome, int Nivel, int Vida, int Forca)
         {
