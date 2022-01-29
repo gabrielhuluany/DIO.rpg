@@ -17,6 +17,10 @@ namespace DIO.rpg.Entities
             Console.Write(Gus.ToString());
             Console.Write(JoJo.ToString());
             Console.Write(Lamps.ToString());
+
+            Console.Write(Gus.Atacar());
+            Console.Write(JoJo.Atacar());
+            Console.Write(Lamps.Atacar());
         }
     }
 }

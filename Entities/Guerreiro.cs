@@ -8,22 +8,20 @@ namespace DIO.rpg.Entities
 {
     public class Guerreiro : Personagem
     {
-        public string Nome { get; set; }
-        public int Nivel { get; set; }
-        public int Vida { get; set; }
-        public int Forca { get; set; }
 
-        public Guerreiro(string Nome, int Nivel, int Vida, int Forca)
+        public Guerreiro(string Nome, int Nivel, int Vida, int Forca) : base (Nome, Nivel, Vida, Forca)
         {
-            this.Nome = Nome;
-            this.Nivel = Nivel;
-            this.Vida = Vida;
-            this.Forca = Forca;
+
         }
 
         public override string ToString()
         {
             return ("Nome: " + this.Nome + "\nNível: " + this.Nivel + "\nVida: " + this.Vida + "\nForça: " + this.Forca + "\n\n");
+        }
+
+        public override string Atacar()
+        {
+            return this.Nome + " deu uma ombrada no slime e causou " + this.Forca + " de dano!\n\n";
         }
     }
 }
