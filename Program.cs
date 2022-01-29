@@ -10,9 +10,13 @@ namespace DIO.rpg.Entities
     {
         static void Main(string[] args)
         {
-            Guerreiro Gus = new Guerreiro();
-            Mago JoJo = new Mago();
-            Arqueiro Lamps = new Arqueiro();
+            Guerreiro Gus = new Guerreiro("Gus, o imortal", 17, 23, 15);
+            Mago JoJo = new Mago("JoJo, o arcano", 15, 14, 25);
+            Arqueiro Lamps = new Arqueiro("Lamps, o calculista", 19, 16, 21);
+
+            Console.Write(Gus.ToString());
+            Console.Write(JoJo.ToString());
+            Console.Write(Lamps.ToString());
         }
     }
 }

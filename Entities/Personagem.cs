@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DIO.rpg.Entities
 {
-    public abstract class Personagem
+    public class Personagem
     {
-        public string nome;
-        public int nivel;
-        public int vida;
-        public int força;
+        public Personagem()
+        {
+
+        }
     }
 }
