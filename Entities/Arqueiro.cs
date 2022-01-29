@@ -14,11 +14,6 @@ namespace DIO.rpg.Entities
 
         }
 
-        public override string ToString()
-        {
-            return ("Nome: " + this.Nome + "\nNível: " + this.Nivel + "\nVida: " + this.Vida + "\nForça: " + this.Forca + "\n\n");
-        }
-
         public override string Atacar()
         {
             return this.Nome + " acertou uma flecha no slime e causou " + this.Forca + " de dano!\n\n";

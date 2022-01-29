@@ -21,6 +21,11 @@ namespace DIO.rpg.Entities
             this.Forca = Forca;
         }
 
+        public override string ToString()
+        {
+            return ("Nome: " + this.Nome + "\nNível: " + this.Nivel + "\nVida: " + this.Vida + "\nForça: " + this.Forca + "\n\n");
+        }
+
         public virtual string Atacar()
         {
             return this.Nome + " atacou o slime e causou " + this.Forca + " de dano!\n\n";

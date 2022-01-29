@@ -14,14 +14,20 @@ namespace DIO.rpg.Entities
 
         }
 
-        public override string ToString()
-        {
-            return ("Nome: " + this.Nome + "\nNível: " + this.Nivel + "\nVida: " + this.Vida + "\nForça: " + this.Forca + "\n\n");
-        }
-
         public override string Atacar()
         {
             return this.Nome + " deu uma ombrada no slime e causou " + this.Forca + " de dano!\n\n";
+        }
+
+        public string Atacar(int Bonus)
+        {
+            if(Bonus >= 3)
+            {
+                return this.Nome + " realizou uma investida no modo Berserker contra o slime e causou " + (this.Forca * Bonus) + " de dano!\n\n";
+            } else
+            {
+                return this.Nome + " realizou uma investida contra o slime e causou " + (this.Forca + Bonus) + " de dano!\n\n";
+            }
         }
     }
 }
