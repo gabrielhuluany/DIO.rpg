@@ -23,10 +23,10 @@ namespace DIO.rpg.Entities
         {
             if(Bonus >= 3)
             {
-                return this.Nome + " realizou uma investida no modo Berserker contra o slime e causou " + (this.Forca * Bonus) + " de dano!\n\n";
+                return this.Nome + " realizou uma investida no modo Berserker contra o slime e causou " + (this.Forca * Bonus) + " de dano!\n";
             } else
             {
-                return this.Nome + " realizou uma investida contra o slime e causou " + (this.Forca + Bonus) + " de dano!\n\n";
+                return this.Nome + " realizou uma investida contra o slime e causou " + (this.Forca + Bonus) + " de dano!\n";
             }
         }
     }

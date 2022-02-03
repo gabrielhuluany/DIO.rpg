@@ -16,7 +16,7 @@ namespace DIO.rpg.Entities
 
         public override string Atacar()
         {
-            return this.Nome + " lançou uma bola de fogo no slime e causou " + this.Forca + " de dano!\n\n";
+            return this.Nome + " lançou uma bola de fogo no slime e causou " + this.Forca + " de dano!\n";
         }
     }
 }
