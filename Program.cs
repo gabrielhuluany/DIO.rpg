@@ -26,6 +26,8 @@ namespace DIO.rpg.Entities
             Console.WriteLine(Gus.Atacar(3));
             Console.WriteLine(Lamps.Atacar());
             Console.WriteLine(JoJo.Atacar());
+
+            Console.ReadKey();
         }
     }
 }
